@@ -51,18 +51,6 @@ void loop()
   case 1:
     sendEnter();
     break;
-    // case 2:
-    //   // one click laser is on
-    //   // 2nd click laser is off
-    //   if (enterBTN.checkIsOn())
-    //   {
-    //     analogWrite(laser, 255);
-    //   }
-    //   else
-    //   {
-    //     analogWrite(laser, 0);
-    //   }
-    //   break;
   }
 
   if (enterBTN.isPressed())
