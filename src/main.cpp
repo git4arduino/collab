@@ -23,8 +23,8 @@ https://github.com/T-vK/ESP32-BLE-Keyboard
 // BleKeyboard bleKeyboard;
 BleKeyboard bleKeyboard("Imperator", "pixelEDI", 100);
 
-Button enterBTN(D8);
-const byte laser(D5);
+Button enterBTN(12);
+const byte laser(14);
 
 void sendEnter()
 {
