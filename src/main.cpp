@@ -41,6 +41,7 @@ void setup()
   enterBTN.start();
   pinMode(laser, OUTPUT);
   bleKeyboard.begin();
+  Serial.println("Setup finished");
 }
 
 void loop()
